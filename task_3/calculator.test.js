@@ -15,3 +15,19 @@ describe('Tests for Calculator add method', () => {
         expect(calculator.add(130, 120)).toBe(250);
     });
 });
+
+describe('Tests for Calculator subtract method', () => {
+
+    test('checks if 1 - 2 = -1',() => {
+        expect(calculator.subtract(1, 2)).toBe(-1);
+    });
+
+    test('checks if 15 - 15 = 0',() => {
+        expect(calculator.subtract(15, 15)).toBe(0);
+    });
+
+    test('checks if 1 - 5 = -4',() => {
+        expect(calculator.subtract(1, 5)).toBe(-4);
+    });
+});
+
