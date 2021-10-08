@@ -45,3 +45,18 @@ describe('Tests for Calculator multiply method', () => {
         expect(calculator.multiply(130, 267)).toBe(34710);
     });
 });
+
+describe('my beverage', () => {
+
+    test('checks if 6 / 3 = 3',() => {
+        expect(calculator.divide(6, 2)).toBe(3);
+    });
+
+    test('checks if 144 / 12 = 12',() => {
+        expect(calculator.divide(144, 12)).toBe(12);
+    });
+
+    test('checks if 50 / 25 = 2',() => {
+        expect(calculator.divide(50, 25)).toBe(2);
+    });
+});
